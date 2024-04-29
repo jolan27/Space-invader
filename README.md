@@ -1,7 +1,7 @@
 ## SpaceInvader  
 
 ## Amélioration future
-Petit jeux de survie contre des aliens.
+jeux de survie contre des aliens.
 Je compte améliorer la beauté du jeux, le gameplay : ajouter des aliens, des niveaux, des scores, des profils de joueurs.
 
 ## Utilisation
