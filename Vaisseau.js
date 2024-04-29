@@ -1,5 +1,5 @@
-var posShipY = hauteur - 1; // Position en Y (ligne)
-var posShipX = Math.floor((largeur - 1) / 2); // Position en X (colonne)
+var posShipY = hauteur - 1; 
+var posShipX = Math.floor((largeur - 1) / 2);
 
 // Fonction pour lancer la partie en plaçant le vaisseau sur le plateau
 function lancerPartie() {
@@ -8,7 +8,7 @@ function lancerPartie() {
 
 
 function effaceShip() {
-    plateau[posShipY][posShipX].src = 'alien-fotor-20240409114729.png'; // Remplace l'image du vaisseau par l'image vide
+    plateau[posShipY][posShipX].src = 'Fond_blanc.svg.webp'; // Remplace l'image du vaisseau par l'image vide
 }
 
 // Fonction pour afficher l'image du vaisseau à sa nouvelle position
@@ -16,7 +16,6 @@ function afficheShip() {
     plateau[posShipY][posShipX].src = 'vaisseau2-fotor-20240409114636.png'; // Remplace l'image vide par l'image du vaisseau
 }
 
-// Fonction pour déplacer le vaisseau en fonction de la touche pressée
 function deplacerVaisseau(event) {
     // Gestion des déplacements
     switch (event.code) {
@@ -35,11 +34,9 @@ function deplacerVaisseau(event) {
             afficheShip();
             break;
         case "ArrowUp":
-            // Tir du missile vers le haut
             pewPew();
             break;
     }
 }
 
-// Attache la fonction de déplacement du vaisseau aux événements du clavier
 window.addEventListener("keydown", deplacerVaisseau);
