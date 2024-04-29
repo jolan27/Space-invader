@@ -5,7 +5,7 @@ function pewPew() {
     posMissilX =posShipX;
     posMissilY = posShipY - 1;
 
-    plateau[posMissilY][posMissilX].src = "missile-fotor-2024040911551.png"
+    plateau[posMissilY][posMissilX].src = "missile-fotor-202404299117.png"
     setTimeout(function() {
         deplacementMissile(posMissilY, posMissilX);
     }, 500)
@@ -25,7 +25,7 @@ function deplacementMissile(y, x) {
     }
 
     // Affiche l'image du missile aux nouvelles coordonnées
-    plateau[newY][newX].src = 'missile-fotor-2024040911551.png';
+    plateau[newY][newX].src = 'missile-fotor-202404299117.png';
 
     // Appelle récursivement la fonction deplacementMissile avec un délai de 200ms
     setTimeout(function() {
