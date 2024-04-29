@@ -15,6 +15,7 @@ function initPlateau() {
             var cellule = document.createElement('td');
             var img = document.createElement('img');
             img.src = "Fond_blanc.svg.webp";
+            cellule.appendChild(img);
             ligne.appendChild(cellule);
             plateau[i][j] = img;
         }
