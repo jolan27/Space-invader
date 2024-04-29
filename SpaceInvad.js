@@ -14,7 +14,7 @@ function initPlateau() {
         for (var j = 0; j < largeur; j++) {
             var cellule = document.createElement('td');
             var img = document.createElement('img');
-            img.src = "Fond_blanc.svg.webp";
+            img.src = "Fond_blanc.svg-fotor-2024042985427.png";
             cellule.appendChild(img);
             ligne.appendChild(cellule);
             plateau[i][j] = img;

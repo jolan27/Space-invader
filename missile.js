@@ -13,7 +13,7 @@ function pewPew() {
 
 function deplacementMissile(y, x) {
     // Efface l'image du missile des coordonnées actuelles
-    plateau[y][x].src = 'Fond_blanc.svg.webp';
+    plateau[y][x].src = 'Fond_blanc.svg-fotor-2024042985427.png';
 
     // Détermine les nouvelles coordonnées du missile
     var newY = y - 1;

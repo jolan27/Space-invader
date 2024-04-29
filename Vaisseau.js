@@ -8,7 +8,7 @@ function lancerPartie() {
 
 
 function effaceShip() {
-    plateau[posShipY][posShipX].src = 'Fond_blanc.svg.webp'; // Remplace l'image du vaisseau par l'image vide
+    plateau[posShipY][posShipX].src = 'Fond_blanc.svg-fotor-2024042985427.png'; // Remplace l'image du vaisseau par l'image vide
 }
 
 // Fonction pour afficher l'image du vaisseau à sa nouvelle position
