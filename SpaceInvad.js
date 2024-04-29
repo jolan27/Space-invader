@@ -14,7 +14,7 @@ function initPlateau() {
         for (var j = 0; j < largeur; j++) {
             var cellule = document.createElement('td');
             var img = document.createElement('img');
-            img.src = "alien-fotor-20240409114729.png";
+            img.src = "Fond_blanc.svg.webp";
             ligne.appendChild(cellule);
             plateau[i][j] = img;
         }
